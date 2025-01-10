@@ -19,21 +19,27 @@ Before running the project, ensure that you have the following dependencies inst
 
 You can install the required packages using `pip`:
 
-```bash
-pip install matplotlib networkx
-
 ## How to Run
 
-### Automatic Mode
-In **automatic mode**, the BFS visualization will run automatically with a default pause between each step. You can adjust the speed using the `--speed` argument.
-
-To run in **automatic mode**:
+### Step 1: Install Dependencies
+Ensure you have the required dependencies installed. Run:
 
 ```bash
+pip install matplotlib networkx
+```
+##Automatic Mode
+-**In automatic mode, the visualization runs automatically, with a pause between each step. You can adjust the speed using the --speed argument.
+-**--speed (optional): Pause duration between iterations. Default is 3.0 seconds. Recommended range: 0.5 to 5.0 seconds.
+```bash
 python BFS.py auto --speed 2.0
---speed (optional): Defines the pause between iterations (default is 3.0 seconds). Recommended range is between 0.5 and 5.0 seconds.
+or
+python BFS.py auto
+```
+##Manual Mode
+-**In manual mode, you control the BFS iterations manually by pressing any key in the graph window.
 
-Manual Mode
-In manual mode, you will step through each iteration manually by pressing any key in the graph window.
+To run in manual mode:
+```bash
 python BFS.py manual
+```
 
