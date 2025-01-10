@@ -1,6 +1,9 @@
 # BFS Visualization
-
 This project visualizes the **Breadth-First Search (BFS)** algorithm on a graph with interactive animations using `matplotlib` and `networkx`. The graph is visualized dynamically, showing the BFS traversal, node colors, and depths in real time. Users can choose between automatic or manual control over the visualization.
+
+## About This Project
+This project was developed as a personal initiative to explore and visualize the **Breadth-First Search (BFS)** algorithm in an interactive and educational way. It is not part of any mandatory coursework but rather a side project created out of interest in algorithm visualization and dynamic graph representation. The goal was to make BFS traversal both intuitive and visually engaging, catering to students, enthusiasts, and professionals alike who wish to see the algorithm in action.
+
 
 ## Features
 - **Interactive Visualization**: The graph updates in real-time as BFS is executed, showing the current node, visited nodes, and newly discovered nodes.
